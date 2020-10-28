@@ -11,6 +11,7 @@
 [__Currency Converter__](CurrencyToWords.py)| Application to be run.
 [__Support Module__](src/Support_Functions.py)| Module containing the required methods.
 [__Dictionary Data Module__](src/Dictionaries.py)| Module containing the dictionary of numbers represented in words.
+[__Test file__](test_code/Test_Convert.py)| File that runs unit tests on the application. 
 
 ## Getting started
 _Download the program zip file, extract it and run 'CurrencyToWords.py'._

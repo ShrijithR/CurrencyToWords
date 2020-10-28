@@ -9,7 +9,7 @@ def main():
             Number = input('Please enter the amount you want to convert or ctrl+c to exit\n')
         except(KeyboardInterrupt, SystemExit):
             print("Exiting...")
-            time.sleep(10)
+            time.sleep(3)
             break
         print(convert(Number)+'\n')
 

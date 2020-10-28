@@ -1,6 +1,6 @@
 # **Currency Converter**
 
-![Image of HT](https://imgur.com/xO9eDxX)    
+![Screenshot of output](https://i.imgur.com/xO9eDxX.png)    
 
 ## Description
   _Application that converts currency amount in numbers into words._  

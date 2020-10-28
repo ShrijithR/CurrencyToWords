@@ -13,7 +13,6 @@
 [__Dictionary Data Module__](src/Dictionaries.py)| Module containing the dictionary of numbers represented in words.
 
 ## Getting started
-* Download the program zip file and extract it
-* 
+* Download the program zip file, extract it and run 'CurrencyToWords.py'.
 
 ### Get going!

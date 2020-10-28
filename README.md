@@ -15,5 +15,3 @@
 
 ## Getting started
 _Download the program zip file, extract it and run 'CurrencyToWords.py'._
-
-### Get going!

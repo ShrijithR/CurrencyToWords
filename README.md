@@ -3,7 +3,7 @@
 ![Screenshot of output](https://i.imgur.com/c2GJHLzh.png?1)
 
 ## Description
-  _Application that converts currency amount(between 0 and 9,99,999,99) in numbers to words._  
+  _Application that converts currency amount(between 0 and 9,99,999.99) in numbers to words._  
  
 ## Table Of Contents
  FILENAME | DESCRIPTION 

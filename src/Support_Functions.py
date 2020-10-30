@@ -66,7 +66,7 @@ def convert(amount):
         return return_string(Thousand, amount, paise)
     if length == 6:
         return return_string(Lakh, amount , paise)
-    
+
 def single_double(amount):
     """Converts the single and double digit numbeRs"""
     num_list, length = Str_List(amount)[1:]

@@ -38,6 +38,9 @@ def Str_List(amount):
     length = len(num_list)
     return num_str, num_list, length
 
+def return_string(func, a, paise):
+    return "Rs. " + func(a) + paise + ' ONLY'
+
 def convert(amount):
     """Returns the converted format of the amount argument """
     num_str = ''.join(str(amount).split(','))
@@ -56,14 +59,14 @@ def convert(amount):
     if amount == 0:
         return "Rs." + paise + ' ONLY'
     if length < 3:
-        return "Rs. " + single_double(amount) + paise + ' ONLY'
+        return return_string(single_double, amount, paise)
     if length == 3:
-        return "Rs. " + hundreds(amount) + paise + ' ONLY'
+        return return_string(hundreds, amount , paise)
     if length == 4 or length == 5:
-        return "Rs. " + Thousand(amount) + paise + ' ONLY'
+        return return_string(Thousand, amount, paise)
     if length == 6:
-        return "Rs. " + Lakh(amount) + paise + ' ONLY'
-
+        return return_string(Lakh, amount , paise)
+    
 def single_double(amount):
     """Converts the single and double digit numbeRs"""
     num_list, length = Str_List(amount)[1:]
